@@ -1,4 +1,8 @@
-# Contact-Managment 
+# Contact-Management 
+## 📑 Content
+- [About](#-about)
+- [Screenshots](#-screenshots)
+- [Contributors](#contributors)
 ## 📖 About
 
 The Contact Management System is a robust and user-friendly application designed to help users efficiently store and manage their contact information. Built using a structured programming approach, this system seamlessly incorporates essential programming concepts, making it both powerful and easy to navigate.
@@ -41,3 +45,10 @@ The Contact Management System is a robust and user-friendly application designed
 - **Importing contacts**
 ![Importing contacts](Screenshots/import_contact/import1.png)
 ![Importing contacts](Screenshots/import_contact/import2.png)
+
+## Contributors
+- [Eslam Adly](https://github.com/EslamAdly)
+- [Adham Saeed](https://github.com/adham667)
+- [Eslam Amr](https://github.com/Eslam-Amr)
+- [Osama Mahmoud](https://github.com/Osama-Mahmoud1)
+- [Eslam Abdallatef](https://github.com/Eslam-Ahmed007)
