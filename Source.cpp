@@ -3,6 +3,7 @@
 #include <iostream>
 #include <iomanip>
 #include <fstream>
+#include <limits>
 
 using namespace std;
 
@@ -73,6 +74,7 @@ int main()
 {
 	while (log_in() == 0) { password.clear(); incorrect = 1; }
 	menu();
+	back_up();
 	return 0;
 }
 
@@ -150,7 +152,7 @@ void menu()
 		else if (choice == 3) delet();
 		else if (choice == 4) category_menu();
 		else if (choice == 5) { system("cls");   search(); }
-		else if (choice == 6) { edit(); }
+		else if (choice == 6)edit();
 		else if (choice == 7)Export();
 		else if (choice == 8)import();
 		else if (choice == 9)back_up();
@@ -565,11 +567,11 @@ void add_to_category(int type)
 		cout << "add to category: ";
 		add_contact = valid_input(-1, number_of_contacts);
 
+		if (add_contact == -1) break;
 
 		Contacts[add_contact - 1].category[type] = 1;
 
 
-		if (add_contact == -1) break;
 	}
 	system("cls");
 	return;
