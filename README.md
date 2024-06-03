@@ -51,4 +51,4 @@ The Contact Management System is a robust and user-friendly application designed
 - [Adham Saeed](https://github.com/adham667)
 - [Eslam Amr](https://github.com/Eslam-Amr)
 - [Osama Mahmoud](https://github.com/Osama-Mahmoud1)
-- [Eslam Abdallatef](https://github.com/Eslam-Ahmed007)
+- [Eslam Ahmed](https://github.com/Eslam-Ahmed007)
